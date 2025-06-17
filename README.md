@@ -2,7 +2,7 @@
 
 **Assistant Engineer (IT) | Data Center Professional | Tech Enthusiast**
 
-📍 Kaliakair, Gazipur, Bangladesh  
+📍 Dhaka,Bangladesh  
 🎓 B.Sc. in Computer Science and Engineering (CSE)  
 💼 Assistant Engineer, BDCCL (Bangladesh Data Center Company Limited) Amc RPE-KAPL-RL JV 
 
@@ -50,7 +50,8 @@
 ### 🤝 Let's Connect
 
 - 🌐 [LinkedIn]( https://www.linkedin.com/in/jibonkumar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/)
-- 📧 Email: jibonkumarcse@email.com  
+- 📧 Email: jibonkumarcse@gmail.com  
+
 
 
 _“Technology with responsibility – empowering systems that matter.”_
