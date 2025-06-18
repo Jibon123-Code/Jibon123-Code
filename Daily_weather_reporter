@@ -1,0 +1,14 @@
+# 🌦️ Daily Weather Reporter – Python CLI Project
+
+This is a simple command-line Python program that provides mock weather updates for selected cities in Bangladesh.
+
+## Features
+- CLI-based interaction
+- User input for city & name
+- Provides time-stamped weather info
+- Can be extended using real APIs (like OpenWeatherMap)
+
+## Tech Used
+- Python (Built-in libraries only)
+
+## Sample Output
