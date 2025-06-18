@@ -12,3 +12,32 @@ This is a simple command-line Python program that provides mock weather updates 
 - Python (Built-in libraries only)
 
 ## Sample Output
+import datetime
+
+def get_mock_weather_data(city):
+    # Mock data, API 
+    weather_data = {
+        "Dhaka": {"temp": "32°C", "condition": "Sunny"},
+        "Chattogram": {"temp": "30°C", "condition": "Partly Cloudy"},
+        "Rajshahi": {"temp": "35°C", "condition": "Hot"},
+        "Sylhet": {"temp": "28°C", "condition": "Rainy"},
+    }
+    return weather_data.get(city, {"temp": "Unknown", "condition": "Data Not Found"})
+
+def main():
+    print("=== Daily Weather Reporter ===")
+    name = input("Enter your name: ")
+    city = input("Enter your city name: ")
+
+    weather = get_mock_weather_data(city)
+    now = datetime.datetime.now()
+
+    print("\n------------------------------------")
+    print(f"Hello {name}, here is the weather update for {city}:")
+    print(f"Date & Time: {now.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Temperature: {weather['temp']}")
+    print(f"Condition: {weather['condition']}")
+    print("------------------------------------\n")
+
+if __name__ == "__main__":
+    main()
